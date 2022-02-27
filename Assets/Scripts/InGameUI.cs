@@ -6,10 +6,6 @@ using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-/// <summary>
-/// Attach to : Canvas
-/// This components manages all the user interfaces of the game
-/// </summary>
 public class InGameUI : MonoBehaviour
 {
     [SerializeField] private Button startButton;
