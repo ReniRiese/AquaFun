@@ -29,6 +29,9 @@ public class InGameUI : MonoBehaviour
     
     private void Start()
     {
+        Screen.autorotateToLandscapeLeft = false;
+        Screen.autorotateToLandscapeRight = false;
+
         startButton.onClick.AddListener(StartButton);
         restartButton.onClick.AddListener(RestartButton);
         
